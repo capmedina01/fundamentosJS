@@ -19,6 +19,6 @@ bodyForm.appendChild(formLogin);
 
 formLogin.addEventListener("submit", function (event){
    event.preventDefault();
-   alert()
+   alert(`Nombre ingresado: ${inputNombre.value} `);
 })
 
